@@ -1,0 +1,39 @@
+.lefth {
+  margin-top: 20%;
+  margin-left: 30%;
+}
+.leftp {
+  width: 70%;
+  margin-left: 30%;
+}
+.leftimg {
+  margin-top: 1%;
+  height: 400px;
+  width: 700px;
+  margin: 1%;
+}
+.righth {
+  margin-top: 20%;
+  margin-right: 30%;
+}
+.rightp {
+  width: 70%;
+  margin-right: 30%;
+}
+
+.from-left {
+  transform: translateX(-50%);
+}
+
+.from-right {
+  transform: translateX(50%);
+}
+
+.from-left,
+.from-right {
+  transition: transform 400ms ease-in;
+}
+.from-left.appear,
+.from-right.appear {
+  transform: translateX(0);
+}

@@ -1,0 +1,15 @@
+.rowStyle {
+  margin: 1%;
+}
+.colStyle {
+  margin: 1%;
+}
+
+.page-title {
+  margin-left: 2%;
+  font-family: initial;
+  font-weight: bolder;
+}
+.btn {
+  margin: 1%;
+}
